@@ -73,7 +73,7 @@ export default function IndexPage() {
       <ParallaxSection videoSrc={videoSchool} height="h-96" pixelate />
 
       {/* Qué Hacemos Section */}
-      <section className="section-padding bg-surface">
+      <section className="section-padding bg-background">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
