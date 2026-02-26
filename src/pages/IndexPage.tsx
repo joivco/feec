@@ -14,6 +14,11 @@ import donationsImage from "@/assets/donations.jpg";
 import missionVisionImage from "@/assets/mission-vision.jpg";
 import eventsBlogImage from "@/assets/events-blog.jpg";
 
+// Import videos
+import videoSchool from "@/assets/video-school.mp4";
+import videoCafeteria from "@/assets/video-cafeteria.mp4";
+import videoCountryside from "@/assets/video-countryside.mp4";
+
 export default function IndexPage() {
   const values = [
     { icon: Heart, title: "Compromiso", description: "Dedicación y responsabilidad en todas nuestras acciones para lograr el desarrollo integral de las personas." },
@@ -65,7 +70,7 @@ export default function IndexPage() {
       </section>
 
       {/* Parallax Image */}
-      <ParallaxSection imageSrc={healthCareImage} height="h-96" />
+      <ParallaxSection videoSrc={videoSchool} height="h-96" pixelate />
 
       {/* Qué Hacemos Section */}
       <section className="section-padding bg-surface">
@@ -105,7 +110,7 @@ export default function IndexPage() {
       </section>
 
       {/* Parallax Image */}
-      <ParallaxSection imageSrc={housingHelpImage} height="h-96" />
+      <ParallaxSection videoSrc={videoCountryside} height="h-96" pixelate />
 
       {/* Aliados Section */}
       <section id="aliados" className="section-padding">
@@ -150,7 +155,7 @@ export default function IndexPage() {
       </section>
 
       {/* Parallax Image */}
-      <ParallaxSection imageSrc={missionVisionImage} height="h-96" />
+      <ParallaxSection videoSrc={videoCafeteria} height="h-96" pixelate />
 
       {/* Misión y Visión Section */}
       <section className="section-padding bg-surface">
